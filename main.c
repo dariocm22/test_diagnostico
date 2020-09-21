@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "personaje.h"
 
 void capturar_enteros () {
     int enteros[5];
