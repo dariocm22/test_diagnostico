@@ -1,4 +1,35 @@
 #include <stdio.h>
+
+void capturar_enteros () {
+    int enteros[5];
+    int i;
+    float promedio;
+    int suma = 0;
+
+    for (size_t i = 0; i < 5; i++)
+    {
+        scanf("%i", &enteros[i]);
+    }
+    for (size_t i = 0; i < 5; i++)
+    {
+        printf("%i\n", enteros[i]);
+    }
+    for (size_t i = 0; i < 5; i++);
+    {
+        suma = suma + enteros[i];
+    }
+    printf("Suma : %i\n", suma);
+    printf("Promedio: &f\n", suma/5.0);
+
+}
+
+void mostrar(int n, char cadena[]){
+    for (size_t i = 0; i < n; i++)
+    {
+        printf("%s", cadena);
+    }
+    
+}
 int main() {
     char op;
     char cadena[20];
